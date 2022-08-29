@@ -5,7 +5,7 @@ inline_btn_1 = InlineKeyboardButton('Первая кнопка!', callback_data=
 inline_kb1 = InlineKeyboardMarkup().add(inline_btn_1)
 
 mmain_m = types.ReplyKeyboardMarkup(row_width=2)
-button1 = types.KeyboardButton("Пройти интервью")
+button1 = types.KeyboardButton("Пройти интервь")
 button2 = types.KeyboardButton(" Как дела?")
 mmain_m.add(button1, button2)
 
